@@ -6,6 +6,11 @@ public class Student {
 	private int age;
 	private String city;
 	
+	// must create argument-less constructor as well!
+	public Student() {
+		
+	}
+	
 	public Student(int id, String name, int age, String city) {
 		this.id = id;
 		this.name = name;
@@ -17,7 +22,7 @@ public class Student {
 		return id;
 	}
 
-	private void setId(int id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
@@ -47,6 +52,6 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", name=" + name + ", age=" + age + ", city=" + city + "]";
+		return "\nStudent [id=" + id + ", name=" + name + ", age=" + age + ", city=" + city + "]";
 	}
 }
