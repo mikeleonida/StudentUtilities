@@ -156,12 +156,4 @@ public class StudentUtils {
 		return "Current students are: [students=" 
 				+ Arrays.toString(students) + "]";
 	}
-
-	public void printCurrentStudents() {
-		System.out.println(this.toString());
-//		System.out.println("Current students are: ");
-//		for (int i = 0; i<students.length; i++) {
-//			System.out.println(students[i]);
-//		}
-	}
 }
