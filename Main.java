@@ -1,4 +1,4 @@
-package StudentUtils;
+package studentutils;
 
 public class Main {
 
